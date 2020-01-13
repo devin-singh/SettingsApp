@@ -16,6 +16,7 @@
 		658A457623CCE325000C70D9 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A457523CCE325000C70D9 /* Setting.swift */; };
 		658A457823CCE491000C70D9 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A457723CCE491000C70D9 /* SettingController.swift */; };
 		658A457A23CCEE89000C70D9 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A457923CCEE89000C70D9 /* SettingTableViewCell.swift */; };
+		658A457C23CCF4D7000C70D9 /* SettingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A457B23CCF4D7000C70D9 /* SettingListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		658A457523CCE325000C70D9 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		658A457723CCE491000C70D9 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		658A457923CCEE89000C70D9 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		658A457B23CCF4D7000C70D9 /* SettingListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				658A457923CCEE89000C70D9 /* SettingTableViewCell.swift */,
+				658A457B23CCF4D7000C70D9 /* SettingListTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658A457C23CCF4D7000C70D9 /* SettingListTableViewController.swift in Sources */,
 				658A457823CCE491000C70D9 /* SettingController.swift in Sources */,
 				658A457A23CCEE89000C70D9 /* SettingTableViewCell.swift in Sources */,
 				658A454E23CCDD62000C70D9 /* AppDelegate.swift in Sources */,
