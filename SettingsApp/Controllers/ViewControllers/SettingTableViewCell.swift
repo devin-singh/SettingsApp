@@ -2,8 +2,8 @@
 //  SettingTableViewCell.swift
 //  SettingsApp
 //
-//  Created by Devin Ghumman on 1/13/20.
-//  Copyright © 2020 Devin Ghumman. All rights reserved.
+//  Created by Devin Singh on 1/13/20.
+//  Copyright © 2020 Devin Singh. All rights reserved.
 //
 
 import UIKit
@@ -19,7 +19,7 @@ class SettingTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var settingSwitch: UISwitch!
 
-    weak var cellDelegate: SettingCellDelegate?
+    var cellDelegate: SettingCellDelegate?
     
     // Actions
     
